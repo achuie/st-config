@@ -1,0 +1,69 @@
+--- src/st/config.def.h	2020-07-03 16:56:34.372148897 +0900
++++ config.h	2020-07-03 17:03:28.051249310 +0900
+@@ -7,3 +7,3 @@
+  */
+-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
++static char *font = "Fira Code:pixelsize=12:antialias=true:autohint=true";
+ static int borderpx = 2;
+@@ -18,3 +18,3 @@
+  */
+-static char *shell = "/bin/sh";
++static char *shell = "/bin/zsh";
+ char *utmp = NULL;
+@@ -98,20 +98,20 @@
+ 	/* 8 normal colors */
+-	"black",
+-	"red3",
+-	"green3",
+-	"yellow3",
+-	"blue2",
+-	"magenta3",
+-	"cyan3",
+-	"gray90",
++    [0] = "#1c1c1c", // black
++    [1] = "#af5f5f", // red
++    [2] = "#5f875f", // green
++    [3] = "#d1a375", // yellow
++    [4] = "#5f87af", // blue
++    [5] = "#7a6b99", // magenta
++    [6] = "#5f8787", // cyan
++    [7] = "#6c6c6c", // white
+ 
+ 	/* 8 bright colors */
+-	"gray50",
+-	"red",
+-	"green",
+-	"yellow",
+-	"#5c5cff",
+-	"magenta",
+-	"cyan",
+-	"white",
++    [8] = "#444444", // black
++    [9] = "#ff8700", // red
++    [10] = "#87af87", // green
++    [11] = "#dcb48c", // yellow
++    [12] = "#8fafd7", // blue
++    [13] = "#a699bf", // magenta
++    [14] = "#5fafaf", // cyan
++    [15] = "#ffffff", // white
+ 
+@@ -119,5 +119,5 @@
+ 
+-	/* more colors can be added after 255 to use with DefaultXX */
+-	"#cccccc",
+-	"#555555",
++    "#131617", // bg; lighter: #262626
++    "#bcbcbc", // fg
++    "#434343", // fg inverted
+ };
+@@ -129,6 +129,6 @@
+  */
+-unsigned int defaultfg = 7;
+-unsigned int defaultbg = 0;
+-static unsigned int defaultcs = 256;
+-static unsigned int defaultrcs = 257;
++unsigned int defaultfg = 257;
++unsigned int defaultbg = 256;
++static unsigned int defaultcs = 257;
++static unsigned int defaultrcs = 258;
+ 
