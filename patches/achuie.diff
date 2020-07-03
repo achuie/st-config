@@ -1,5 +1,5 @@
---- src/st/config.def.h	2020-07-03 16:56:34.372148897 +0900
-+++ config.h	2020-07-03 17:03:28.051249310 +0900
+--- src/st/config.def.h	2020-07-03 18:47:38.551022647 +0900
++++ src/st/config.h	2020-07-03 18:51:30.665319737 +0900
 @@ -7,3 +7,3 @@
   */
 -static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
@@ -10,7 +10,12 @@
 -static char *shell = "/bin/sh";
 +static char *shell = "/bin/zsh";
  char *utmp = NULL;
-@@ -98,20 +98,20 @@
+@@ -96,3 +96,3 @@
+ /* bg opacity */
+-float alpha = 0.8;
++float alpha = 0.9;
+ 
+@@ -101,20 +101,20 @@
  	/* 8 normal colors */
 -	"black",
 -	"red3",
@@ -47,19 +52,19 @@
 +    [14] = "#5fafaf", // cyan
 +    [15] = "#ffffff", // white
  
-@@ -119,5 +119,5 @@
- 
--	/* more colors can be added after 255 to use with DefaultXX */
+@@ -123,5 +123,5 @@
+ 	/* more colors can be added after 255 to use with DefaultXX */
 -	"#cccccc",
 -	"#555555",
+-	"black",
 +    "#131617", // bg; lighter: #262626
 +    "#bcbcbc", // fg
 +    "#434343", // fg inverted
  };
-@@ -129,6 +129,6 @@
+@@ -133,6 +133,6 @@
   */
 -unsigned int defaultfg = 7;
--unsigned int defaultbg = 0;
+-unsigned int defaultbg = 258;
 -static unsigned int defaultcs = 256;
 -static unsigned int defaultrcs = 257;
 +unsigned int defaultfg = 257;

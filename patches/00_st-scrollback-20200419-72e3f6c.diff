@@ -1,5 +1,5 @@
 --- src/st/config.def.h
-+++ config.def.h
++++ src/st/config.def.h
 @@ -188,6 +188,8 @@ static Shortcut shortcuts[] = {
  	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
  	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
