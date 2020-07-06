@@ -32,7 +32,7 @@
 +	[4] = "#5f87af", // blue
 +	[5] = "#7a6b99", // magenta
 +	[6] = "#5f8787", // cyan
-+	[7] = "#6c6c6c", // white
++	[7] = "#bcbcbc", // white
  
  	/* 8 bright colors */
 -	"gray50",
