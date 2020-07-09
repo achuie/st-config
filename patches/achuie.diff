@@ -1,5 +1,5 @@
---- src/st/config.def.h.orig	2020-07-07 17:46:47.896534952 +0900
-+++ src/st/config.def.h	2020-07-07 17:48:25.238886929 +0900
+--- src/st/config.def.h
++++ src/st/config.def.h
 @@ -7,3 +7,3 @@
   */
 -static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
@@ -94,7 +94,8 @@
 +	{ TERMMOD,              XK_K,           zoom,           {.f = +1} },
 +	{ TERMMOD,              XK_J,           zoom,           {.f = -1} },
  	{ TERMMOD,              XK_Home,        zoomreset,      {.f =  0} },
-@@ -205,2 +205,3 @@
+@@ -205,3 +205,3 @@
  	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
+-	{ TERMMOD,              XK_Escape,      keyboard_select,{.i =  0} },
 +	{ MODKEY,               XK_Escape,      keyboard_select,{.i =  0} },
- 	{ TERMMOD,              XK_Escape,      keyboard_select,{.i =  0} },
+ 	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
