@@ -25,14 +25,14 @@
 -	"magenta3",
 -	"cyan3",
 -	"gray90",
-+	[0] = "#1c1c1c", // black
-+	[1] = "#af5f5f", // red
++	[0] = "#282a2e", // black
++	[1] = "#a66363", // red
 +	[2] = "#5f875f", // green
 +	[3] = "#d1a375", // yellow
-+	[4] = "#5f87af", // blue
-+	[5] = "#7a6b99", // magenta
-+	[6] = "#5f8787", // cyan
-+	[7] = "#6c6c6c", // white
++	[4] = "#64879e", // blue
++	[5] = "#85728f", // magenta
++	[6] = "#5e8b8d", // cyan
++	[7] = "#707880", // white
  
  	/* 8 bright colors */
 -	"gray50",
@@ -43,22 +43,22 @@
 -	"magenta",
 -	"cyan",
 -	"white",
-+	[8] = "#444444", // black
++	[8] = "#373b41", // black
 +	[9] = "#ff8700", // red
 +	[10] = "#87af87", // green
 +	[11] = "#dcb48c", // yellow
-+	[12] = "#8fafd7", // blue
-+	[13] = "#a699bf", // magenta
-+	[14] = "#5fafaf", // cyan
-+	[15] = "#ffffff", // white
++	[12] = "#81a2be", // blue
++	[13] = "#ba9eba", // magenta
++	[14] = "#8ababe", // cyan
++	[15] = "#c5c8c6", // white
  
 @@ -123,5 +123,5 @@
  	/* more colors can be added after 255 to use with DefaultXX */
 -	"#cccccc",
 -	"#555555",
 -	"black",
-+	"#131617", // bg; lighter: #262626
-+	"#bcbcbc", // fg
++	"#1e2226", // bg; lighter: #262626
++	"#c5c8c6", // fg
 +	"#434343", // fg inverted
  };
 @@ -133,6 +133,6 @@
