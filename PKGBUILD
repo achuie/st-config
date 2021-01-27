@@ -6,7 +6,7 @@
 # Contributor: Christoph Vigano <mail@cvigano.de>
 
 pkgname=st-git
-pkgver=0.8.4.r0.gfa253f0
+pkgver=0.8.4.r2.g4ef0cbd
 pkgrel=1
 pkgdesc='A simple virtual terminal emulator for X.'
 arch=('i686' 'x86_64' 'armv7h')
